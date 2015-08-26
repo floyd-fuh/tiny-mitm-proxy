@@ -1,0 +1,5 @@
+Probably one of the smallest SSL MITM proxies you can make. Only using openssl, netcat and a couple of other standard command line tools.
+
+Writes all incoming client traffic to one file and all response traffic from the server to another file.
+
+Put some sed commands in there and you can even modify traffic ("an exercise for the reader").
